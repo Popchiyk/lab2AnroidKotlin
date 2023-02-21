@@ -1,4 +1,4 @@
-package com.example.tiptime
+package com.example.recyclerview
 
 import org.junit.Test
 

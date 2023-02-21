@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.tiptime'
+    namespace 'com.example.recyclerview'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.tiptime"
+        applicationId "com.example.recyclerview"
         minSdk 19
         targetSdk 33
         versionCode 1
@@ -29,9 +29,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-    buildFeatures {
-        viewBinding = true
     }
 }
 
